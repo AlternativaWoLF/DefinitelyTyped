@@ -242,7 +242,7 @@ declare module Elasticsearch {
     }
 
     export interface SearchParams extends GenericParams {
-        index?: string;
+        index?: string | string[];
         type?: string | string[] | number;
         body?: any;
         q?: string;
