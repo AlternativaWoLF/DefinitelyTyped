@@ -743,7 +743,7 @@ declare module Elasticsearch {
         waitForCompletion?: boolean;
         requestsPerSecond?: number;
         index: NameList;
-        type: NameList;
+        type?: NameList;
     }
 
     export interface Cat {
